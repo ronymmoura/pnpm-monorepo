@@ -1,0 +1,16 @@
+{
+  "name": "shared-ui",
+  "description": "Shared UI components",
+  "private": true,
+  "main": "dist",
+  "types": "types",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

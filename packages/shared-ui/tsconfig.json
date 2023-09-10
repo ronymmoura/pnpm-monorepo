@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "outDir": "./dist"
+  },
+  "include": ["."],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}
